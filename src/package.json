@@ -1,0 +1,21 @@
+{
+  "name": "yiban-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "lowdb": "^1.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "standard": "^14.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
