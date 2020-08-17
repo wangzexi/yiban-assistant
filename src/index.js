@@ -34,7 +34,7 @@ async function crawl () {
 
   for (const course of courses) {
     for (let i = 1; i < course.pageCount + 1; ++i) {
-      const questions = await getQstByPage(cookies, courses[0].uri + i)
+      const questions = await getQstByPage(cookies, course.uri + i)
       db.get('questions').push(...questions).write()
       console.log(course.name, '页数', i, questions.length)
     }
