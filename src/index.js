@@ -21,9 +21,14 @@ async function crawl () {
   // 从我的错题里抓取题目
   const courses = [
     {
+      name: '本科生学籍管理规定',
+      uri: 'http://www.yiban.cn/t/student/showmisinfo/name/%E6%9C%AC%E7%A7%91%E7%94%9F%E5%AD%A6%E7%B1%8D%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A/courseid/471/page/',
+      pageCount: 2 // 抓取页数
+    },
+    {
       name: '纪律与处分规定',
       uri: 'http://www.yiban.cn/t/student/showmisinfo/name/%E7%BA%AA%E5%BE%8B%E4%B8%8E%E5%A4%84%E5%88%86%E8%A7%84%E5%AE%9A/courseid/470/page/',
-      pageCount: 3 // 抓取页数
+      pageCount: 3
     },
     {
       name: '安全教育',
